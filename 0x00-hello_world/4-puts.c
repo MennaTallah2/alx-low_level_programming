@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ * main fuction uses puts to print string
+ */
 
 int main(void)
 {
