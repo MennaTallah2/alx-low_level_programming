@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main fuction uses puts to print string
+ * main - Entry 
+ *
+ * Return:Always 0 (Success)
  */
 
 int main(void)
