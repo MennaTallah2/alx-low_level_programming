@@ -2,9 +2,8 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/types.h>
-
 /**
- * main - entry
+ * main - Entry
  * Return: Always 1
  */
 int main(void)
