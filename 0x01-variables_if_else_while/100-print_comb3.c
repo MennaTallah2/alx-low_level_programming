@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main- entry
- * Return :Always 0
+ * Description: combining two numbers
+ * Return:Always 0
  *
  */
 
