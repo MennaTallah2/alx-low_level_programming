@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main-entry
- * return: Alwaya 0
+ * Return: Alwaya 0
  */
 int main(void)
 {
