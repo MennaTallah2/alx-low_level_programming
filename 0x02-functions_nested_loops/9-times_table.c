@@ -13,10 +13,11 @@ void times_table(void)
 	for (j = 0; j <= 9; j++)
 	{
 	multiply = i * j;
-	_putchar(multiply / 10 + '0');
+	_putchar(multiply + '0');
 	if (j == 9)
 	{
 	_putchar('$');
+	_putchar('\n');
 	}
 	else
 	{
