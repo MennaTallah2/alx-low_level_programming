@@ -22,6 +22,7 @@ int main(void)
 			if ((prime % div) == 0)
 				prime /= div;
 		}
+	}
 
 		printf("%ld\n", prime);
 		return (0);
