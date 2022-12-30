@@ -1,5 +1,5 @@
 #include "main.h"
-#include <strign.h>
+#include <string.h>
 /**
  * rev_string - a function that reveses the strign
  * @s: is the pointer for the string value
