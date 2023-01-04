@@ -17,12 +17,12 @@ unsigned int _strspn(char *s, char *accept)
 			if (*accept == *s)
 			{
 				i++;
+				break;
 			}
 
 			accept++;
 		}
 		s++;
-		i++;
 	}
 	return (i);
 }
