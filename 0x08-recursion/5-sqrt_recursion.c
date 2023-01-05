@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * sqrt - function calculates the square root
+ * _sqrt - function calculates the square root
  * @num: the number to calc its root
  * @root: the root Value
  * Return: the value of the root calculated
  */
-int sqrt(int num, int root)
+int _sqrt(int num, int root)
 {
 	if ((root * root) == num)
 		return (root);
 	else if (root * root > num)
 		return (-1);
 	else
-		return (sqrt(num, root + 1));
+		return (_sqrt(num, root + 1));
 }
 /**
  * _sqrt_recursion - fuc calculates square root of a given num
@@ -27,6 +27,6 @@ int _sqrt_recursion(int n)
 		return (-1);
 	if (n == 1)
 		return (1);
-	return (sqrt(n, root));
+	return (_sqrt(n, root));
 
 }
